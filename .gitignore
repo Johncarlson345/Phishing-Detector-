@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
+
+
+.env
+
+# Data & models — usually too large or not meant for GitHub
+*.csv
+*.pkl
+*.h5
+*.joblib
+data/
+models/
+
+# OS/editor junk
+.DS_Store
+.vscode/
