@@ -8,7 +8,7 @@ env/
 
 .env
 
-# Data & models — usually too large or not meant for GitHub
+# Data & models
 *.csv
 *.pkl
 *.h5
