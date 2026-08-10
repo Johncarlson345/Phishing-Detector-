@@ -158,4 +158,20 @@
   .page-nav ul {
     gap: 10px;
   }
+
+  .result-card {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.result-card.legitimate {
+  border-color: green;
+  background-color: #e6f4ea;
+}
+
+.result-card.phishing {
+  border-color: red;
+  background-color: #fdecea;
+}
 }
