@@ -30,7 +30,7 @@ function Enter({ onResult }) {
             <form className="entry-form" onSubmit={handleSubmit}>
                 <label htmlFor="website">Website URL</label>
                 <input
-                    type="url"
+                    type="text"
                     id="website"
                     placeholder="https://example.com"
                     value={url}

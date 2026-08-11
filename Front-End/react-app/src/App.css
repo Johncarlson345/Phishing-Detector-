@@ -139,6 +139,56 @@
   filter: brightness(0.95);
 }
 
+.result-card {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.result-card.legitimate {
+  border-color: green;
+  background-color: #e6f4ea;
+}
+
+.result-card.phishing {
+  border-color: red;
+  background-color: #fdecea;
+}
+
+.result-card.moderate.legitimate {
+  border-color: #c9a227;
+  background-color: #fdf6e3;
+}
+
+.result-card.moderate.phishing {
+  border-color: #c9a227;
+  background-color: #fdf6e3;
+}
+
+.result-card.undetermined {
+  border-color: var(--border);
+  background-color: var(--code-bg);
+}
+
+.result-verdict {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+.result-confidence {
+  margin: 4px 0 0;
+  color: var(--text);
+}
+
+.result-note {
+  margin: 10px 0 0;
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+
 @media (max-width: 760px) {
   .app-shell {
     padding: 24px 18px;
@@ -158,20 +208,4 @@
   .page-nav ul {
     gap: 10px;
   }
-
-  .result-card {
-  padding: 1rem;
-  border-radius: 8px;
-  border: 2px solid;
-}
-
-.result-card.legitimate {
-  border-color: green;
-  background-color: #e6f4ea;
-}
-
-.result-card.phishing {
-  border-color: red;
-  background-color: #fdecea;
-}
 }

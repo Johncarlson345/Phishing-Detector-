@@ -12,7 +12,6 @@ function App() {
       <Header />
       <Enter onResult={setResult} />
       <Results result={result} />
-      <p>please keep in mind that if your input does not have https:// in it the model will likely predict it as a phish</p>
     </div>
   )
 }
