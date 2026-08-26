@@ -43,6 +43,7 @@ def lambda_handler(event, context):
  
     if cached:
         prediction, confidence, tier = cached
+        confidence = float(confidence)
     else:
         features = extract_features_batch([url])
         df = pd.DataFrame(features)
